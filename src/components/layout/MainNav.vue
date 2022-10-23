@@ -1,5 +1,4 @@
 <script setup>
-import { ref, computed } from "vue";
 import { RouterLink } from "vue-router";
 
 </script>
@@ -77,5 +76,10 @@ a:hover,
 a:active,
 a.router-link-active{
   color: black;
+}
+
+.navbar{
+  transition-delay: 50ms;
+  transition: all 0.2s ease-out;
 }
 </style>

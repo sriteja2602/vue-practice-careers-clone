@@ -1,13 +1,7 @@
 <script setup>
 import {useRoute, useRouter, RouterLink} from 'vue-router'
 import {ref, computed} from 'vue'
-// const router = useRouter()
-const router = useRouter()
 
-let currentPathObject = router.currentRoute.value; 
- 
-console.log("Route Object", currentPathObject)
-const locationroute = ref('/location')
 </script>
 
 <template>
@@ -26,8 +20,8 @@ const locationroute = ref('/location')
         />
       </svg>
       <span>Find your next job at Google.
-        <a v-if="locationroute == router.currentRoute._value.path" href="">Hi</a>
-        <a class="fs-6" href="">What do you want to do?</a>
+        <!-- <a href="">Hi</a> -->
+        <a class="fs-6" href="#">What do you want to do?</a>
       </span>
       <div class="px-3 fs-6 tt">
       </div>
