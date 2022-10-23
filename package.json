@@ -1,14 +1,17 @@
 {
   "name": "vue-project",
   "version": "0.0.0",
+  "homepage": "https://sriteja2602.github.io/vue-practice-careers-clone",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview --port 4173"
+    "preview": "vite preview --port 4173",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "bootstrap": "^5.2.1",
     "bootstrap-icons": "^1.9.1",
+    "gh-pages": "^4.0.0",
     "vue": "^3.2.38",
     "vue-router": "^4.0.13"
   },
