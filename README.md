@@ -1,4 +1,4 @@
-# vue-project
+# Careers Portal
 
 This template should help get you started developing with Vue 3 in Vite.
 
@@ -26,4 +26,31 @@ npm run dev
 
 ```sh
 npm run build
+```
+
+## To deploy vue on Github
+
+### Add base url
+
+```sh
+base:"/vue-practive-careers-clone/"
+```
+
+### Install gh-pages
+
+```sh
+npm i gh-pages
+```
+
+### Add deploy script
+
+```sh
+"deploy": "gh-pages -d dist"
+```
+
+
+### Time to deploy
+
+```sh
+npm run deploy
 ```
